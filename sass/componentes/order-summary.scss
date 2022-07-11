@@ -1,0 +1,11 @@
+@use "../variables/colors";
+
+.container {
+  background-color: colors.$first-color;
+  width: 375px;
+}
+
+
+.container__header--image {
+  border-radius: 16px 16px 0px 0px;
+}
