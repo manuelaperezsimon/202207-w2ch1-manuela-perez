@@ -1,0 +1,27 @@
+{
+  "name": "challenge-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelaperezsimon/202207-w2ch1-manuela-perez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelaperezsimon/202207-w2ch1-manuela-perez/issues"
+  },
+  "homepage": "https://github.com/manuelaperezsimon/202207-w2ch1-manuela-perez#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
