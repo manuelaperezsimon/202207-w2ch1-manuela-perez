@@ -1,11 +1,32 @@
 @use "../variables/colors";
 
+html {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
 .container {
   background-color: colors.$first-color;
   width: 375px;
 }
 
+img {
+  border-radius: 30px 30px 0px 0px;
+  width: 375px;
+}
 
-.container__header--image {
-  border-radius: 16px 16px 0px 0px;
+h1 {
+  font-weight: bold;
+
+}
+
+p {
+  font-size: 18px;
+  color: colors.$fourth-color;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
